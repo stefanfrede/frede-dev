@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    Yes, I can!
+  </title>
+
+  <meta name="supported-color-schemes" content="light dark">
+  <meta name="description" content="frede.dev is the website of Stefan Frede.">
+  <meta name="author" content="Stefan Frede">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="article">
+  <meta property="article:author" content="Stefan Frede">
+
+  <style>
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --background: hsl(216, 33%, 97%);
+      --gradient-left: hsl(214, 15%, 91%);
+      --gradient-right: hsl(216, 33%, 97%);
+      --on-background: hsl(210, 24%, 16%);
+      --ts-one: rgba(245, 247, 250, 0.1);
+      --ts-two: rgba(31,41, 51, 0.5);
+    }
+
+    body {
+      align-items: center;
+      background-color: var(--background);
+      background-image: linear-gradient(
+        to right, var(--gradient-left) 0%,
+        var(--gradient-right) 100%
+      );
+      color: var(--on-background);
+      display: flex;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+      justify-content: center;
+      min-height: 100vh;
+      min-width: 100vw;
+      text-shadow: -1px -1px 1px var(--ts-one), 1px 1px 1px var(--ts-two);
+    }
+
+    h1 {
+      font-size: 20vw;
+      letter-spacing: -0.05rem;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: hsl(210, 24%, 16%);
+        --gradient-left: hsl(209, 20%, 25%);
+        --gradient-right: hsl(210, 24%, 16%);
+        --on-background: hsl(214, 15%, 91%);
+        --ts-one: rgba(31,41, 51, 0.1);
+        --ts-two: rgba(245, 247, 250, 0.5);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main id="main">
+    <h1>
+      Yes, I can!
+    </h1>
+  </main>
+</body>
+</html>
