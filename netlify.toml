@@ -15,12 +15,6 @@
   targetPort = 8080
   framework = "#custom"
 
-[[redirects]]
-  from = "http://www.frede.io/*"
-  to = "https://www.frede.dev"
-  status = 301
-  force = true
-
 [[headers]]
   for = "/*"
   [headers.values]
