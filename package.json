@@ -1,0 +1,29 @@
+{
+  "name": "frede-dev",
+  "version": "4.0.0",
+  "description": "Stefan Frede's website",
+  "engines": {
+    "node": "20.x.x",
+    "npm": "10.x.x"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stefanfrede/frede-dev.git"
+  },
+  "keywords": [
+    "eleventy",
+    "netlify",
+    "webcomponents"
+  ],
+  "author": {
+    "name": "Stefan Frede",
+    "email": "github.pfze6@slmail.me"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/stefanfrede/frede-dev/issues"
+  },
+  "homepage": "https://www.frede.dev/"
+}
