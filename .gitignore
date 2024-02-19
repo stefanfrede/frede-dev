@@ -1,4 +1,6 @@
 # Cache
 .eslintcache
+.stylelintcache
+
 # Local Netlify folder
 .netlify
