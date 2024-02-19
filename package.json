@@ -6,6 +6,7 @@
     "node": "20.x.x",
     "npm": "10.x.x"
   },
+  "type": "module",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -25,5 +26,15 @@
   "bugs": {
     "url": "https://github.com/stefanfrede/frede-dev/issues"
   },
-  "homepage": "https://www.frede.dev/"
+  "homepage": "https://www.frede.dev/",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^14.0.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "3.2.5",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  }
 }
