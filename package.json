@@ -27,6 +27,9 @@
     "url": "https://github.com/stefanfrede/frede-dev/issues"
   },
   "homepage": "https://www.frede.dev/",
+  "scripts": {
+    "prepare": "husky"
+  },
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
