@@ -1,27 +1,6 @@
-# dependecies installed by npm
-node_modules
-web_modules
-
-# build artefacts
-src/_site
-dist
-
-# secrets
-.env
-
-# cache
+# Cache
 .eslintcache
 .stylelintcache
-
-# logs
-*.log
-report.html
-
-# macOS related files
-.DS_Store
-
-# version manager
-.tool-versions
 
 # Local Netlify folder
 .netlify
